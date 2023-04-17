@@ -1,0 +1,113 @@
+.logo{
+    color: #F1641E;
+    font-size: xx-large;
+    
+}
+li>.btn:hover{
+    background-color: rgba(34, 34, 34, 0.050);
+    border-radius: 50%;
+    
+}
+.sub-nav{
+    font-family: "Sofia", sans-serif;
+    padding: 1rem 1rem 6rem 1rem;
+    text-align: center;
+    background-color: #ddebe3;
+}
+/* .bg{
+    padding: 40px;
+    background-color: #ddebe3;
+} */
+
+.type{
+    color:rgba(34, 34, 34, 0.701);
+    /* transition: opacity 500ms ease-out inherit; */
+    cursor: pointer;
+    padding-left: 2rem;
+
+}
+.type:hover{
+    color:rgba(34, 34, 34, 0.79);
+}
+h1{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: .5px;
+}
+.catalogies{
+    margin-top: -5rem;
+}
+.catalogies-item{
+    display: block;
+   max-width: 110px;
+    border-radius: 50%;
+    margin: auto;
+}
+.catalogies-item-name{
+    
+}
+.pop-gifts{
+    color: rgba(31, 31, 31, 0.893);
+    padding-left: 3rem;
+    padding-bottom:1rem ;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+.popular-gift-categories{
+    margin: 5px;
+    height: 250px;
+    /* width: 150px; */
+    border: rgba(169, 169, 169, 0.349) solid 0.05rem;
+    border-radius:1rem ;
+    /* transition-delay: 0.3s; */
+    /* transition-timing-function: inherit; */
+    transition-duration: 1.5s;
+    transition-property: initial;
+    
+}
+.popular-gift-categories:hover{
+    box-shadow: 3px 2px 17px -3px rgba(79,79,79,0.55);
+-webkit-box-shadow: 3px 2px 17px -3px rgba(79,79,79,0.55);
+-moz-box-shadow: 3px 2px 17px -3px rgba(79,79,79,0.55);
+/* height: 253px; */
+
+}
+.product-item{
+  
+}
+.about-esty{
+    min-height: 500px;
+    background-color: #FDEBD2;
+    /* border-radius: 173px 61px 0px 2px;
+-webkit-border-radius: 173px 61px 0px 2px;
+-moz-border-radius: 173px 61px 0px 2px; */
+}
+
+.w-is-esty{
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+}
+.link-page-about{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: rgb(86, 86, 86);
+    transition-duration: 2s;
+    /* text-decoration: underline; */
+}
+.link-page-about:hover{
+    color: #A79C8D;
+}
+
+.about-detail{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer{
+    
+    background-color: #2F466C;
+}
