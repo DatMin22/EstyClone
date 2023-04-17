@@ -68,8 +68,7 @@
         </nav>
     </div>
     <main ng-controller="myctrl" role="main">
-        <div class="chao text-center" ng-model="fullname">Xin chào <b
-                class=" text-danger font-monospace ">{{fullname}}</b></div>
+        <div class="chao text-center" ng-model="fullname">Xin chào</div>
         <div class="sub-nav">
             <h1 class="">
 
@@ -288,24 +287,9 @@
 
         <!-- footer -->
         <footer>
-            <p class="text-center m-0 p-3 text-white" ng-model="email">PS21169 - <b class="text-warning">{{email}}</b> -
-                IT17302</p>
+            <p class="text-center m-0 p-3 text-white" ng-model="email">PS21169 - Trương Quang Đạt - IT17302</p>
         </footer>
     </main>
 </body>
 
 </html>
-<script>
-    var app = angular.module("myapp", []);
-    app.controller("myctrl", myfunc);
-    function myfunc($scope) {
-        var ht = sessionStorage.getItem("fullname");
-        if (ht != "") {
-            $scope.fullname = ht;
-        }
-        var em = sessionStorage.getItem("email");
-        if (em != "") {
-            $scope.email = em;
-        }
-    }
-</script>
